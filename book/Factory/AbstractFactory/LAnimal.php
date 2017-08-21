@@ -2,15 +2,14 @@
 /**
  * Created by PhpStorm.
  * User: shengj
- * Date: 2017/8/17
- * Time: 22:33
+ * Date: 2017/8/21
+ * Time: 20:38
  */
 
 namespace Book\Factory\AbstractFactory;
 
-interface PC
+//低段位动物接口
+interface LAnimal
 {
-    function work();
-    function play();
-
+    function LPlay();
 }

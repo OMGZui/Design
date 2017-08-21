@@ -9,8 +9,8 @@ namespace Book\Factory\SimpleFactory;
 
 class Cat
 {
-    function __construct()
+    public function play()
     {
-        echo "Cat class \n";
+        echo "猫是LOL的塑料段位 \n";
     }
 }

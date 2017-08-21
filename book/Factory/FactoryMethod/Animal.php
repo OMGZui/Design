@@ -8,8 +8,8 @@
 
 namespace Book\Factory\FactoryMethod;
 
+//动物接口，定义一套规范，实现它的类都必须实现接口的方法
 interface Animal
 {
-    public function run();
-    public function say();
+    public function play();
 }

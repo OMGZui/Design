@@ -8,7 +8,8 @@
 
 namespace Book\Factory\FactoryMethod;
 
+//工厂抽象类
 abstract class Factory
 {
-    abstract static function createAnimal();
+    abstract function createAnimal();
 }

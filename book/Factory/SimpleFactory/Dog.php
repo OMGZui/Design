@@ -10,8 +10,8 @@ namespace Book\Factory\SimpleFactory;
 
 class Dog
 {
-    function __construct()
+    public function play()
     {
-        echo "Dog class \n";
+        echo "狗是LOL的王者段位 \n";
     }
 }

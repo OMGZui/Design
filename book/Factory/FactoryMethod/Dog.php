@@ -10,15 +10,9 @@ namespace Book\Factory\FactoryMethod;
 
 class Dog implements Animal
 {
-    public function run()
+    public function play()
     {
-        echo "Dog run fast \n";
+        echo "狗是LOL王者段位 \n";
     }
-
-    public function say()
-    {
-        echo "Dog class \n";
-    }
-
 
 }

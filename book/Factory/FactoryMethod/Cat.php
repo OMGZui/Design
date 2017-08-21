@@ -9,13 +9,8 @@ namespace Book\Factory\FactoryMethod;
 
 class Cat implements Animal
 {
-    public function run()
+    public function play()
     {
-        echo "Cat run slow \n";
-    }
-
-    public function say()
-    {
-        echo "Cat class \n";
+        echo "猫是LOL塑料段位 \n";
     }
 }

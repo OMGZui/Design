@@ -10,16 +10,15 @@ namespace Book\Observer;
 
 use SplObserver;
 
+
 class Subject implements \SplSubject
 {
-    private $observers;
-    public $num;
-    public $hobby;
+    public $observers;
+    public $who;
 
-    function __construct($hobby)
+    function __construct($who)
     {
-        $this->num = rand(1, 10);
-        $this->hobby = $hobby;
+        $this->who = $who;
         $this->observers = new \SplObjectStorage();
     }
 

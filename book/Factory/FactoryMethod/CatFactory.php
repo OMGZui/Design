@@ -9,7 +9,7 @@ namespace Book\Factory\FactoryMethod;
 
 class CatFactory extends Factory
 {
-    public static function createAnimal()
+    public function createAnimal()
     {
         return new Cat();
     }

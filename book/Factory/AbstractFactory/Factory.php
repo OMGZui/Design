@@ -10,6 +10,6 @@ namespace Book\Factory\AbstractFactory;
 
 abstract class Factory
 {
-    abstract static function createTV();
-    abstract static function createPC();
+    abstract function CreateDog();
+    abstract function CreateCat();
 }
