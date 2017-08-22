@@ -28,9 +28,12 @@
     * 观察者模式
     * 策略
 
+
 ### TODO
-* [x] 简单UML示例
+* [x] [简单UML示例][1]
 * [] UML图
 * [] 补充实践
 * [] 模式补全
 * [] 几大原则
+
+[1]: https://github.com/OMGZui/Design/blob/master/uml.md
