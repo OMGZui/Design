@@ -2,8 +2,8 @@
 我觉的这个例子非常完美，真的，so perfect!
 安利一下这个[软件][1]吧
 
-![](http://omgzui.oss-cn-hangzhou.aliyuncs.com/blog/uml.jpeg)
-<img src="http://omgzui.oss-cn-hangzhou.aliyuncs.com/blog/uml.jpeg">
+<!--![](http://omgzui.oss-cn-hangzhou.aliyuncs.com/blog/uml.jpeg)-->
+<img src="http://omgzui.oss-cn-hangzhou.aliyuncs.com/blog/uml.jpeg" height=400px>
 
 * 车的类图结构为<<abstract>>，表示车是一个抽象类；
 * 它有两个继承类：小汽车和自行车；它们之间的关系为实现关系，使用带**空心箭头的虚线**表示；
