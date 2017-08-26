@@ -9,18 +9,4 @@ namespace Database;
 
 class Db
 {
-    function where($prop)
-    {
-        return $this;
-    }
-
-    function order($prop)
-    {
-        return $this;
-    }
-
-    function limit($prop)
-    {
-        return $this;
-    }
 }
