@@ -33,6 +33,8 @@
 
 很喜欢这两个关键字，`comfortable`+`confident`
 
+### 单例模式
+
 下载一份最新laravel代码，打开phpstorm，开始疯狂跳转代码，我们找到了`app.php`里有这样的代码：
 
 ```php
@@ -67,4 +69,21 @@ $app->singleton(
         $this->bind($abstract, $concrete, true);
     }
 
+然后我们看下\Illuminate\Container\Container这个类，连__construct()构造方法都没有，我们去实例化它的话不就是空的啊，
+singleton似曾相识啊，不就是单例的意思吗，然后我们往下找：
+
+    /**
+     * Set the globally available instance of the container.
+     *
+     * @return static
+     */
+    public static function getInstance()
+    {
+        if (is_null(static::$instance)) {
+            static::$instance = new static;
+        }
+
+        return static::$instance;
+    }
+好小子，果然有这getInstance()，获取实例方法，\Illuminate\Container\Container::getInstance()就能拿到容器内的绑定实例了。
 ```
